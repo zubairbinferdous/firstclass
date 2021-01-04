@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display and inline</title>
+    <style>
+        *{
+            margin: 0 auto;
+            
+        }
+        .tour{
+            background-color: blueviolet;
+            color: cornsilk;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size:30px;
+            clear: both;
+        }
+
+        .sajak{
+            float: left;
+            width: 40%;
+            height:auto;
+            border: 5px solid rgb(48, 47, 47);
+            padding: 10px 25px 40px 25px;
+            margin: 30px;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-align: justify;
+        }
+
+        .sajak h3{
+            font-size: 30px;
+            padding: 20px;
+            text-transform: uppercase;
+        }
+        .inline p{
+            font-size: 25px;
+            text-align: justify;
+            padding: 30px;
+        }
+
+        .ex1{
+
+            display: block;
+            background-color: rgb(12, 12, 12);
+
+        }
+
+        .ex2{
+            
+            display: inline;
+            background-color: rgb(12, 12, 12);
+
+        }
+        
+        .ex3{
+            
+            display: inline-block;
+            background-color: rgb(12, 12, 12);
+
+        }
+
+        span{
+            color:red;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="tour">
+        <h1>tour story</h1>
+    </div>
+
+
+    <div class="sajak">
+        <h3>family tour</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, culpa. Commodi, corrupti quos voluptatum sed aspernatur fugiat obcaecati vitae iusto temporibus pariatur? Sunt illum neque repellendus saepe iure consequuntur, inventore recusandae! Quos nostrum magnam quasi odio quis quidem incidunt fuga nobis quae facere facilis optio veniam dicta ullam, expedita accusantium. Dignissimos praesentium assumenda molestias labore ab, doloribus laboriosam! Similique quidem quas est neque necessitatibus consequuntur quae libero blanditiis exercitationem voluptate accusantium officia nesciunt esse nulla eveniet, laborum cumque enim nemo aliquam suscipit incidunt saepe odit? Necessitatibus fugit unde culpa voluptates veritatis quia asperiores reprehenderit? Fuga laudantium neque blanditiis maiores soluta?</p>
+    </div>
+    <div class="sajak">
+        <h3>personal tour</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, culpa. Commodi, corrupti quos voluptatum sed aspernatur fugiat obcaecati vitae iusto temporibus pariatur? Sunt illum neque repellendus saepe iure consequuntur, inventore recusandae! Quos nostrum magnam quasi odio quis quidem incidunt fuga nobis quae facere facilis optio veniam dicta ullam, expedita accusantium. Dignissimos praesentium assumenda molestias labore ab, doloribus laboriosam! Similique quidem quas est neque necessitatibus consequuntur quae libero blanditiis exercitationem voluptate accusantium officia nesciunt esse nulla eveniet, laborum cumque enim nemo aliquam suscipit incidunt saepe odit? Necessitatibus fugit unde culpa voluptates veritatis quia asperiores reprehenderit? Fuga laudantium neque blanditiis maiores soluta?</p>
+    </div>
+
+
+    <div class="tour" style="margin-top: 25px;">
+        <h1>line story</h1>
+    </div>
+
+    <div class="inline">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse, voluptatem illum, eaque cum odio hic eos nihil, ut blanditiis tenetur excepturi eveniet inventore <span class="ex1">hello world</span> dolore quod corporis unde distinctio soluta natus quas quasi? Molestias animi ratione atque pariatur beatae numquam, repudiandae neque. Dolorum enim esse deleniti suscipit vitae pariatur dicta?</p>
+
+        <p>Lorem ipsum dolor sit amet <span class="ex2">hello world</span>  Veniam esse, voluptatem illum, eaque cum odio hic eos nihil, ut blanditiis tenetur excepturi eveniet inventore dolore quod corporis unde distinctio soluta natus quas quasi? Molestias animi ratione atque pariatur beatae numquam, repudiandae neque. Dolorum enim esse deleniti suscipit vitae pariatur dicta?</p>
+
+
+        <p>Lorem ipsum dolor sit amet <span class="ex3">hello world</span> consectetur adipisicing elit. Veniam esse, voluptatem illum, eaque cum odio hic eos nihil, ut blanditiis tenetur excepturi eveniet inventore dolore quod corporis unde distinctio soluta natus quas quasi? Molestias animi ratione atque pariatur beatae numquam, repudiandae neque. Dolorum enim esse deleniti suscipit vitae pariatur dicta?</p>
+    </div>
+    
+</body>
+</html>
