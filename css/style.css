@@ -1,0 +1,28 @@
+
+body{
+    /* font-family: 'Redressed', cursive; */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.name{
+    color: rgb(235, 156, 52);
+}
+
+.half-width{
+    width: 38%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
