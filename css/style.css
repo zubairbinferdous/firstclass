@@ -1,7 +1,12 @@
 
 body{
-    /* font-family: 'Redressed', cursive; */
     font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    
+}
+
+section{
+    height: 550px;
 }
 
 h1{
@@ -13,7 +18,7 @@ p{
 }
 
 .name{
-    color: rgb(235, 156, 52);
+    color: rgb(255, 145, 0);
 }
 
 .half-width{
@@ -25,4 +30,11 @@ p{
 
 .half-width img{
     width: 100%;
+}
+
+.top-banner{
+   background-image: url("/images/banner.png");
+   background-repeat: no-repeat;
+
+
 }
