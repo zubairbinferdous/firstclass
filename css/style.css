@@ -38,3 +38,44 @@ p{
 
 
 }
+
+
+h1{
+    color: blueviolet;
+}
+
+h1:hover{
+    color:red ;
+}
+
+.spacial-class:hover{
+color: rosybrown;
+}
+input:focus{
+    font-weight: 700;
+    color: sandybrown;
+}
+
+li:first-child{
+    background-color: steelblue;
+}
+li:nth-child(2n){
+    background-color: red;
+}
+
+a:visited{
+    color: seagreen;
+}
+
+.pseudo h1::before{
+    content: " hello";
+    color: rgb(215, 6, 243);
+    font-size: 18px;
+}
+
+.pseudo h1::after{
+    content: " 😃";
+    color: rgb(243, 6, 6);
+    font-size: 18px;
+}
+
